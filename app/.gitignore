@@ -1,0 +1,4 @@
+/build
+*.keystore
+*.jks
+src/main/cpp/vibrafp/third_party/fftw-android/

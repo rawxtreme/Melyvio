@@ -1,0 +1,121 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+.gradle/
+build/
+*/build/
+
+# Local configuration files & SDK properties
+local.properties
+local.env
+secrets.properties
+credentials.json
+google-services.json
+GoogleService-Info.plist
+
+# Environment & Secret files
+.env
+.env.*
+*.env
+*.secret
+*.token
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+
+# Keystores & Signing Keys
+*.jks
+*.keystore
+*.ks
+*.pepk
+debug.keystore
+release.keystore
+
+# Proguard folder
+proguard/
+
+# Log & Temp Files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Android Studio & IDE
+.navigation/
+captures/
+*.iml
+.idea/
+.idea
+vcs.xml
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Artifacts & Local workspace
+.artifacts/
+.kotlin/
+app/release/
+app/foss/
+**/mapping.txt
+output-metadata.json
+/app/release/output-metadata.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Binary files and core dumps
+core
+core.*
+*.so
+*.bin
+
+# Third-party library build artifacts
+.build-fftw
+app/src/main/cpp/coverart/
+
+# AI Agents & IDE Cache
+.claude
+.antigravity*
+.gemini
+.opencode
+.cursor*
+.codeium
+.cortexkit
+.mcp.json
+*.har
+
+# --- Signing keys and passwords: these must NEVER be committed -------------------------------
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pepk
+*.pem
+/keystore/
+/keys/
+*.apk
+*.aab

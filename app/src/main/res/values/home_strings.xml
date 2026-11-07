@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Greeting -->
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="greeting_night">Good night</string>
+    <string name="greeting_item_title">Your name</string>
+    <string name="greeting_item_hint">Choose how we greet you</string>
+    <string name="greeting_screen_title">How would you like us to greet you?</string>
+    <string name="greeting_screen_subtitle">Add a name and we will greet you with it on the home screen. No account needed.</string>
+    <string name="greeting_name_hint">Your name</string>
+    <string name="greeting_preview">Preview</string>
+    <string name="greeting_save">Save</string>
+    <string name="greeting_use_default">Use default greeting</string>
+
+    <string name="greeting_add_photo">Add photo</string>
+    <string name="greeting_change_photo">Change photo</string>
+    <string name="greeting_remove_photo">Remove photo</string>
+    <string name="greeting_photo_error">Could not use that photo. Please try another one.</string>
+
+    <!-- About -->
+    <string name="about_stands_title">This app stands with Hindus</string>
+    <string name="about_stands_sub">Proudly made in India \uD83C\uDDEE\uD83C\uDDF3</string>
+
+    <!-- Home -->
+    <string name="home_chip_all">All</string>
+    <string name="hero_play_now">Play Now</string>
+    <string name="hero_play_error">Could not load songs. Check your internet and try again.</string>
+    <string name="hero_label_morning">FOR YOUR MORNING</string>
+    <string name="hero_title_morning">Music for Fresh Mornings</string>
+    <string name="hero_sub_morning">Feel-good tunes to start your day with a smile.</string>
+    <string name="hero_label_afternoon">FOR YOUR AFTERNOON</string>
+    <string name="hero_title_afternoon">Music for Bright Afternoons</string>
+    <string name="hero_sub_afternoon">Upbeat hits to keep your energy going.</string>
+    <string name="hero_label_evening">FOR YOUR EVENING</string>
+    <string name="hero_title_evening">Music for Calm Evenings</string>
+    <string name="hero_sub_evening">Chill beats, soft vocals and more to end your day right.</string>
+    <string name="hero_label_night">FOR YOUR NIGHT</string>
+    <string name="hero_title_night">Music for Quiet Nights</string>
+    <string name="hero_sub_night">Slow, mellow songs to wind down and relax.</string>
+    <string name="hero_label_trending">TRENDING NOW</string>
+    <string name="hero_title_trending">What Everyone Is Playing</string>
+    <string name="hero_sub_trending">The hottest songs right now, picked for you.</string>
+    <string name="hero_label_chill">TAKE IT EASY</string>
+    <string name="hero_title_chill">Chill and Relax</string>
+    <string name="hero_sub_chill">Soft, soothing tracks for a peaceful mood.</string>
+    <string name="hero_label_feelgood">GOOD VIBES</string>
+    <string name="hero_title_feelgood">Feel Good Hits</string>
+    <string name="hero_sub_feelgood">Happy songs that instantly lift your mood.</string>
+
+    <!-- Appearance: glass + banner -->
+    <string name="glass_section_title">Home and glass effect</string>
+    <string name="glass_nav_title">Bottom bar glass</string>
+    <string name="glass_nav_desc">Home, Search and Library bar</string>
+    <string name="glass_fab_title">Floating buttons glass</string>
+    <string name="glass_fab_desc">Mic and shuffle buttons</string>
+    <string name="glass_level_transparent">Fully transparent</string>
+    <string name="glass_level_soft">Soft frosted</string>
+    <string name="glass_level_frosted">Frosted</string>
+    <string name="show_home_banner">Home banner</string>
+    <string name="show_home_banner_desc">Show the music banner above Speed dial</string>
+
+    <!-- Player and audio -->
+    <string name="pause_on_headphone_unplug">Pause when headphones disconnect</string>
+    <string name="pause_on_headphone_unplug_desc">Stop playback if wired or Bluetooth headphones are removed</string>
+
+    <!-- Playlist banner + pin -->
+    <string name="banner_add">Add custom banner</string>
+    <string name="banner_change">Change banner</string>
+    <string name="banner_remove">Remove banner</string>
+    <string name="banner_optional">Optional. Your photo is cropped to a square.</string>
+    <string name="banner_menu_desc">Pick a photo from your gallery</string>
+    <string name="banner_remove_desc">Go back to the latest song banner</string>
+    <string name="banner_error">Could not use that photo. Please try another one.</string>
+    <string name="playlist_pin">Pin playlist</string>
+    <string name="playlist_unpin">Unpin playlist</string>
+    <string name="playlist_pin_desc">Keep it at the top of your playlists</string>
+
+    <!-- Music DNA -->
+    <string name="dna_title">Music DNA</string>
+    <string name="dna_tagline">Discover your music taste</string>
+    <string name="dna_settings_desc">See your top artists, genres and listening time, and share it with friends.</string>
+    <string name="dna_new">NEW</string>
+    <string name="dna_screen_title">YOUR MUSIC DNA</string>
+    <string name="dna_period_week">7 days</string>
+    <string name="dna_period_month">30 days</string>
+    <string name="dna_period_all">All time</string>
+    <string name="dna_period_week_long">Last 7 days</string>
+    <string name="dna_period_month_long">Last 30 days</string>
+    <string name="dna_period_all_long">All time</string>
+    <string name="dna_stat_time">Listening time</string>
+    <string name="dna_stat_plays">Songs played</string>
+    <string name="dna_stat_unique">Unique songs</string>
+    <string name="dna_top_artists">Top 5 artists</string>
+    <string name="dna_top_songs">Most played songs</string>
+    <string name="dna_genres">Favourite genres</string>
+    <string name="dna_genres_note">Estimated from your artists and song titles</string>
+    <string name="dna_weekly">Weekly listening</string>
+    <string name="dna_liked">Liked tracks</string>
+    <string name="dna_discovered">Recently discovered artists</string>
+    <string name="dna_discovered_empty">No new artists in the last 30 days</string>
+    <string name="dna_plays">%1$d plays</string>
+    <string name="dna_share">Share My Music DNA</string>
+    <string name="dna_share_text">My Music DNA on Melyvio</string>
+    <string name="dna_empty_title">Your Music DNA is empty</string>
+    <string name="dna_empty_body">Play some songs and come back. Your stats will show up here.</string>
+    <string name="dna_privacy_title">Privacy</string>
+    <string name="dna_privacy_note">Your stats are worked out on this phone only. Nothing is uploaded.</string>
+    <string name="dna_record_history">Record listening history</string>
+    <string name="dna_record_history_desc">Needed to calculate your Music DNA</string>
+    <string name="dna_clear_history">Clear listening history</string>
+    <string name="dna_clear_confirm">This deletes your listening history and resets your Music DNA. This cannot be undone.</string>
+    <string name="dna_this_week">this week</string>
+
+    <!-- Crossfade quick dialog -->
+    <string name="crossfade_quick_hint">Turn it on to use crossfade. When it is off, songs play normally.</string>
+    <string name="crossfade_quick_current">Current: %1$s seconds</string>
+    <string name="crossfade_quick_done">Done</string>
+
+    <!-- Audio booster -->
+    <string name="booster_title">Audio booster</string>
+    <string name="booster_menu_desc">Make songs louder than the phone volume</string>
+    <string name="booster_system_volume">Phone volume</string>
+    <string name="booster_system_hint">Change it with your volume buttons</string>
+    <string name="booster_boost">Boost</string>
+    <string name="booster_safe">Safe up to %1$d%%</string>
+    <string name="booster_loud">Loud</string>
+    <string name="booster_disclaimer">Listening at a high volume for a long time can damage your ears, headphones, speakers or DJ box. We are not responsible for any damage. Use it at your own risk.</string>
+    <string name="booster_reset">Reset</string>
+    <string name="booster_done">Done</string>
+
+    <!-- More home banner slides -->
+    <string name="hero_label_romance">LOVE IN THE AIR</string>
+    <string name="hero_title_romance">Romantic Hits</string>
+    <string name="hero_sub_romance">Soulful love songs for every mood of the heart.</string>
+    <string name="hero_label_workout">PUSH YOUR LIMITS</string>
+    <string name="hero_title_workout">Workout Energy</string>
+    <string name="hero_sub_workout">High-energy tracks to keep you moving.</string>
+    <string name="hero_label_party">TURN IT UP</string>
+    <string name="hero_title_party">Party Starters</string>
+    <string name="hero_sub_party">Dance floor favourites, back to back.</string>
+    <string name="hero_label_focus">STAY IN THE ZONE</string>
+    <string name="hero_title_focus">Focus Mode</string>
+    <string name="hero_sub_focus">Calm instrumentals to help you concentrate.</string>
+    <string name="hero_label_throwback">OLD IS GOLD</string>
+    <string name="hero_title_throwback">Evergreen Throwbacks</string>
+    <string name="hero_sub_throwback">Timeless hits from the golden years.</string>
+    <string name="hero_label_peace">INNER PEACE</string>
+    <string name="hero_title_peace">Peaceful Devotion</string>
+    <string name="hero_sub_peace">Soothing bhajans and mantras to calm the mind.</string>
+
+    <!-- Connect with developer -->
+    <string name="connect_dev_title">Connect with developer</string>
+    <string name="connect_dev_summary">Updates and news on Telegram</string>
+    <string name="connect_dev_heading">Melyvio on Telegram</string>
+    <string name="connect_dev_body">Follow the official channel to stay up to date. Everything about Melyvio is posted there first.</string>
+    <string name="connect_dev_list_title">What you will get there</string>
+    <string name="connect_dev_item1">New versions with release notes</string>
+    <string name="connect_dev_item2">New features and what is coming next</string>
+    <string name="connect_dev_item3">Fixes and known issues</string>
+    <string name="connect_dev_item4">Announcements and polls</string>
+    <string name="connect_dev_button">Open Telegram</string>
+    <string name="connect_dev_error">Could not open the link</string>
+
+    <!-- Playlist export / import -->
+    <string name="export_help">Save a backup of this playlist. If you ever uninstall and install Melyvio again, create a new playlist and choose Import playlist. All your songs come back, so you do not have to add them one by one.</string>
+    <string name="export_option_melyvio">Melyvio backup (can be imported back)</string>
+    <string name="export_option_m3u">M3U playlist (for other music apps)</string>
+    <string name="import_title">Import playlist</string>
+    <string name="import_row_hint">Restore a playlist you exported from Melyvio</string>
+    <string name="import_help">This is helpful when you reinstall Melyvio. Choose a file that was exported from Melyvio and all its songs are added to your new playlist, so you do not have to add them again. Only files exported from Melyvio work. It can take a little time, depending on how many songs there are.</string>
+    <string name="import_choose_file">Choose file</string>
+    <string name="import_ready">%1$s - %2$d songs ready</string>
+    <string name="import_err_not_melyvio">This is not a Melyvio playlist file. Only playlists exported from Melyvio can be imported.</string>
+    <string name="import_err_empty">This playlist file has no songs.</string>
+    <string name="import_err_large">This file is too large or has too many songs.</string>
+    <string name="import_err_read">Could not read this file.</string>
+    <string name="import_busy">Another import is still running.</string>
+    <string name="import_running_title">Importing playlist</string>
+    <string name="import_stage_check">Checking songs</string>
+    <string name="import_stage_fetch">Getting song details</string>
+    <string name="import_stage_search">Finding the remaining songs</string>
+    <string name="import_stage_add">Adding songs to your playlist</string>
+    <string name="import_keep_open">Please keep Melyvio open until this finishes.</string>
+    <string name="import_done_title">Import finished</string>
+    <string name="import_done_message">Added %1$d of %2$d songs to %3$s.</string>
+    <string name="import_failed_intro">These songs could not be added. Search for them and add them yourself:</string>
+    <string name="import_done_button">Done</string>
+    <string name="import_tip">Tip: to restore an exported playlist, create a new playlist. The import option is there.</string>
+</resources>

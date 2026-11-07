@@ -1,0 +1,28 @@
+name: Bug report
+description: Report something that is not working
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Melyvio is a solo project. Please check that the bug is not already reported, and add as much detail as you can.
+  - type: input
+    id: version
+    attributes:
+      label: Melyvio version
+      description: You can find it in Settings.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone and Android version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened, and how can I see it?
+      description: Steps to reproduce, what you expected, and what happened instead.
+    validations:
+      required: true

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="donate_title">Buy me a coffee</string>
+    <string name="donate_settings_summary">Support the developer</string>
+    <string name="donate_headline">Building Melyvio took a lot of hard work</string>
+    <string name="donate_body">If you enjoy the app, you can support its development with a small donation. Every contribution helps me keep improving Melyvio and adding new features.</string>
+    <string name="donate_scan">Scan with any UPI app</string>
+    <string name="donate_scan_tip">Paying from this phone? Take a screenshot of the QR and scan it from your gallery inside your UPI app.</string>
+    <string name="donate_qr_description">UPI QR code for donations</string>
+    <string name="donate_thanks">Thank you for your support!</string>
+    <string name="donate_thanks_sub">Your support keeps Melyvio improving.</string>
+    <string name="credits_developer_alias">Shukla Ji</string>
+</resources>

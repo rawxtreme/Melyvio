@@ -1,0 +1,16 @@
+Melyvio is a free, open-source music player for Android that plays music from YouTube Music. You never have to log in, there are no ads and no tracking.
+
+Main features
+
+- Music DNA: your top artists, songs, genres and listening time, plus a music personality, worked out on your phone and shareable as an image
+- Audio booster: add up to 100% extra loudness, with a safe range shown
+- Crossfade: fade between songs, 3, 5 or 8 seconds
+- Playlist backup: export a playlist and import it again after a reinstall
+- Custom playlist banners and pinned playlists
+- Synced lyrics, equalizer, sleep timer, offline downloads
+- Music recognition, Android Auto and widgets
+- Material 3 design with dynamic colours and a glass bottom bar
+
+Your listening history stays on your phone, and you can pause or clear it any time.
+
+Melyvio is built on Metrolist. It is not affiliated with YouTube or Google.
