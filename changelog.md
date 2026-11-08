@@ -2,6 +2,11 @@
 
 Big changes to Melyvio are listed here. The first news about each version is posted on the Telegram channel before the release goes up: https://t.me/rawxtremestudios
 
+## 1.0.1
+
+- New option in Settings, Player and audio, Misc: stop the notification and completely close the app when it is cleared from recent apps (on by default)
+- The update notification now shows every time you open the app while a newer version exists, and opens the GitHub release page
+
 ## 1.0.0
 
 First public release.

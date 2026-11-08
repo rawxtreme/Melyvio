@@ -34,6 +34,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.os.PowerManager
+import android.os.Process
 import android.widget.Toast
 import androidx.core.app.NotificationCompat
 import androidx.datastore.preferences.core.Preferences
@@ -4258,12 +4259,22 @@ class MusicService :
         scope.cancel()
         super.onDestroy()
         shutdownDeferred.complete(Unit)
+        if (killProcessOnDestroy) {
+            // All cleanup is done above; this removes the notification and fully closes the app.
+            Process.killProcess(Process.myPid())
+        }
     }
+
+    // Set when the user clears the app from recents with "close app on clear" enabled.
+    // onDestroy() then kills the process so nothing keeps running in the background.
+    @Volatile
+    private var killProcessOnDestroy = false
 
     override fun onBind(intent: Intent?) = super.onBind(intent) ?: binder
 
     override fun onTaskRemoved(rootIntent: Intent?) {
-        if (dataStore.get(StopMusicOnTaskClearKey, false)) {
+        if (dataStore.get(StopMusicOnTaskClearKey, true)) {
+            killProcessOnDestroy = true
             if (!::player.isInitialized) {
                 stopSelf()
                 return

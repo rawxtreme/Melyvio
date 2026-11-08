@@ -9,9 +9,41 @@
   <a href="https://t.me/rawxtremestudios"><img alt="Telegram" src="https://img.shields.io/badge/telegram-updates-444?style=flat-square"></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/rawxtreme/Melyvio/releases/latest/download/Melyvio.apk">
+    <img alt="Download Melyvio from GitHub" src="https://img.shields.io/badge/Download-Melyvio.apk-F2B28C?style=for-the-badge&logo=github&logoColor=black&logoSize=auto" height="64">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://t.me/rawxtremestudios">
+    <img alt="Join Melyvio on Telegram" src="https://img.shields.io/badge/Join-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&logoSize=auto" height="64">
+  </a>
+</p>
+
+<p align="center">
+  <sub>Tap <b>Download</b> and the latest APK starts downloading from GitHub. Android 8.0 or newer.</sub>
+</p>
+
 Melyvio is a music player for Android. It plays music from YouTube Music and never asks you to log in. There are no ads, no tracking and no account to make: open it, search, press play.
 
 The app is free and open source. It started from [Metrolist](https://github.com/MetrolistGroup/Metrolist) (more in [Credits](#credits)) and I keep building my own features on top of it. I work on it alone.
+
+## Screenshots
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <br>
+      <img src="assets/readme/screenshots/01-home.jpg" alt="Home" width="18%">
+      <img src="assets/readme/screenshots/02-player.jpg" alt="Player" width="18%">
+      <img src="assets/readme/screenshots/03-music-dna.jpg" alt="Music DNA" width="18%">
+      <img src="assets/readme/screenshots/04-music-dna-details.jpg" alt="Music DNA details" width="18%">
+      <img src="assets/readme/screenshots/05-audio-booster.jpg" alt="Audio booster" width="18%">
+      <br><br>
+      <sub>Home &nbsp;·&nbsp; Player &nbsp;·&nbsp; Music DNA &nbsp;·&nbsp; Weekly chart and liked tracks &nbsp;·&nbsp; Audio booster</sub>
+      <br><br>
+    </td>
+  </tr>
+</table>
 
 ## What Melyvio does
 
@@ -91,7 +123,7 @@ Only files exported by Melyvio can be imported. If a song is no longer on YouTub
 
 ## Install
 
-1. Open the [latest release](https://github.com/rawxtreme/Melyvio/releases/latest) and download the `.apk` file.
+1. [Download the latest APK](https://github.com/rawxtreme/Melyvio/releases/latest/download/Melyvio.apk), or open the [latest release](https://github.com/rawxtreme/Melyvio/releases/latest) page.
 2. Open the file on your phone. If Android asks, allow installs from this source.
 3. Done. Melyvio will tell you when a newer version is out.
 

@@ -205,7 +205,7 @@ fun PlayerSettings(
     )
     val (stopMusicOnTaskClear, onStopMusicOnTaskClearChange) = rememberPreference(
         StopMusicOnTaskClearKey,
-        defaultValue = false
+        defaultValue = true
     )
     val (pauseOnHeadphoneUnplug, onPauseOnHeadphoneUnplugChange) = rememberPreference(PauseOnHeadphoneUnplugKey, true)
     val (pauseOnMute, onPauseOnMuteChange) = rememberPreference(

@@ -105,7 +105,8 @@ object UpdateNotifier {
         context: Context,
         release: ReleaseInfo,
     ) {
-        val url = Updater.getDownloadUrlForCurrentVariant(release) ?: Updater.RELEASES_PAGE_URL
+        // Open the GitHub release page so the user can pick up the new version from there.
+        val url = release.htmlUrl.ifBlank { Updater.RELEASES_PAGE_URL }
         val intent = Intent(Intent.ACTION_VIEW, url.toUri())
         val pending =
             PendingIntent.getActivity(

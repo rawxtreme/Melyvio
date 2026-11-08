@@ -360,7 +360,7 @@ class MainActivity : FragmentActivity() {
         super.onDestroy()
         // Use effective playing state so Cast (local player paused, remote playing) is included.
         val stopServiceOnClear =
-            dataStore.get(StopMusicOnTaskClearKey, false) &&
+            dataStore.get(StopMusicOnTaskClearKey, true) &&
                 playerConnection?.isEffectivelyPlaying?.value == true &&
                 isFinishing
 
@@ -511,7 +511,6 @@ class MainActivity : FragmentActivity() {
                     }
 
                     if (update != null && notificationsEnabled &&
-                        preferences[UpdateCheckJobService.LastNotifiedTagKey] != update.release.tagName &&
                         (
                             Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU ||
                                 ContextCompat.checkSelfPermission(this@MainActivity, Manifest.permission.POST_NOTIFICATIONS) ==
