@@ -23,7 +23,7 @@
   <sub>Tap <b>Download</b> and the latest APK starts downloading from GitHub. Android 8.0 or newer.</sub>
 </p>
 
-Melyvio is a music player for Android. It plays music from YouTube Music and never asks you to log in. There are no ads, no tracking and no account to make: open it, search, press play.
+Melyvio is a third-party music client for Android that plays music from YouTube. It never asks you to log in. There are no ads, no tracking and no account to make: open it, search, press play.
 
 The app is free and open source. It started from [Metrolist](https://github.com/MetrolistGroup/Metrolist) (more in [Credits](#credits)) and I keep building my own features on top of it. I work on it alone.
 
@@ -232,6 +232,14 @@ Melyvio is a solo project and I am not looking for contributors right now. Pull 
 Ideas, suggestions and bug reports are welcome on the Telegram channel. That is also where you hear about new versions first, before a release goes up, so please join:
 
 **[t.me/rawxtremestudios](https://t.me/rawxtremestudios)**
+
+## Disclaimer
+
+> **Melyvio is an independent, third-party project. It is not affiliated with, authorized, sponsored, endorsed by, or in any way officially connected with YouTube, Google LLC, or any of their subsidiaries or affiliates, nor with any other third-party brand, service or company, in any form.**
+>
+> YouTube, YouTube Music and Google are trademarks of Google LLC. All other product names, logos and brands mentioned in this project belong to their respective owners and are used only to describe what Melyvio works with. All music, videos, artwork and other content belong to their respective owners. Melyvio does not host or own any of it.
+>
+> Melyvio is provided as is, without any warranty. You are responsible for how you use it, and for following the terms of service of any service you access through it.
 
 <br>
 
